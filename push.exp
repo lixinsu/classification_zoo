@@ -1,6 +1,0 @@
-spawn git push origin master
-expect "Username:*"
-send "sulixinict@gmail.com\n"
-expect "Password*"
-send "learnmore~123"
-interact
