@@ -1,0 +1,9 @@
+language: python
+python:
+    - "3.5"
+    - "3.6"
+sudo: false
+install: sh ./install_dependency.sh
+script: true
+env: PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/tests:$TRAVIS_BUILD_DIR/classification_zoo
+
